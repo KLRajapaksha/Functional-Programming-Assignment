@@ -1,0 +1,39 @@
+Q1)
+object Temperature {
+  def multiply(x : Int, y : Float, z : Int) : Float = {return x*y+z}
+  def main(args: Array[String]) {
+    println(multiply(35,1.8f,32))
+  }
+}
+
+Q2)
+object volume {
+  
+  def devide1(x : Float, y : Int) : Float = x/y
+  def devide2(l : Float, m : Int) : Float = l/m
+  def multiply(p : Int) : Int = p*p*p
+  def answer(a : Float, b : Float, c : Int) : Float = a*b*c
+  def main(args: Array[String]) {
+    var ans1 : Float = devide1(4f,3)
+    var ans2 : Float = devide2(22f,7)
+    var ans3 : Int = multiply(5)
+    println(answer(ans1,ans2,ans3))
+    
+  }
+}
+
+Q3)
+object price {
+  
+  def multi1(x : Float, y : Int, z : Float) : Float = x*y*z
+  def multi2(l : Float, m : Int) : Float = l*m
+  
+  def answer(a : Float, b : Float, c : Int) : Float = a+b+c
+  def main(args: Array[String]) {
+    var ans1 : Float = multi1(24.95f,60,0.4f)
+    var ans2 : Float = multi2(0.75f,10)
+    
+    println(answer(ans1,ans2,3))
+    
+  }
+}
